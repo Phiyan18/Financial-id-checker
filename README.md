@@ -241,4 +241,9 @@ If you get a storage quota error:
 
 ## 📄 License
 
+
 This project is private and proprietary.
+## Running
+<img width="1920" height="1080" alt="Screenshot 2025-12-19 002832" src="https://github.com/user-attachments/assets/117fb867-93f3-4223-8e4f-b970582f7e18" />
+
+
