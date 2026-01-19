@@ -2,7 +2,7 @@
 
 A powerful, enterprise-grade web application for validating financial identifiers (ISIN, CUSIP, SEDOL, LEI) with built-in SQL database functionality, advanced analytics, and session management.
 
-## 🚀 Features
+## Features
 
 ### Core Validation
 - **ISIN (International Securities Identification Number)** - Validates 12-character alphanumeric codes with checksum verification
@@ -11,22 +11,22 @@ A powerful, enterprise-grade web application for validating financial identifier
 - **LEI (Legal Entity Identifier)** - Validates 20-character global legal entity identifiers
 
 ### Advanced Features
-- ✅ **Real-time Validation** - Instant validation with checksum correction suggestions
-- 💾 **SQL Database Integration** - Built-in SQL.js database for persistent data storage
-- 📊 **Analytics Dashboard** - Comprehensive statistics and visualizations
-- 🔍 **Session Management** - Save, load, and manage multiple validation sessions
-- 📁 **CSV Import/Export** - Easy data import and error log export
-- 🔎 **Advanced Search & Filtering** - Search records by name, identifier, or error type
-- 📈 **Custom SQL Queries** - Execute custom SQL queries on your data
-- 🌙 **Dark Mode** - Beautiful dark/light theme toggle
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile devices
+-  **Real-time Validation** - Instant validation with checksum correction suggestions
+-  **SQL Database Integration** - Built-in SQL.js database for persistent data storage
+-  **Analytics Dashboard** - Comprehensive statistics and visualizations
+-  **Session Management** - Save, load, and manage multiple validation sessions
+-  **CSV Import/Export** - Easy data import and error log export
+-  **Advanced Search & Filtering** - Search records by name, identifier, or error type
+-  **Custom SQL Queries** - Execute custom SQL queries on your data
+-  **Dark Mode** - Beautiful dark/light theme toggle
+-  **Responsive Design** - Works seamlessly on desktop and mobile devices
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v14 or higher)
 - npm or yarn package manager
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -47,7 +47,7 @@ A powerful, enterprise-grade web application for validating financial identifier
 4. **Open your browser**
    - The app will automatically open at `http://localhost:3000`
 
-## 📦 Building for Production
+## Building for Production
 
 To create an optimized production build:
 
@@ -57,7 +57,7 @@ npm run build
 
 This creates a `build` folder with optimized production files ready for deployment.
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Uploading Data
 
@@ -128,7 +128,7 @@ After uploading, navigate to the **Dashboard** tab to see:
    - Severity level
 3. Export error log as CSV using the **Export Errors** button
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Sessions Table
 ```sql
@@ -177,7 +177,7 @@ CREATE TABLE validation_errors (
 );
 ```
 
-## 🎨 Technology Stack
+## Technology Stack
 
 - **React 18.3.1** - UI framework
 - **Tailwind CSS 4.1.18** - Styling
@@ -185,7 +185,7 @@ CREATE TABLE validation_errors (
 - **Lucide React** - Icon library
 - **React Scripts** - Build tooling
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Database Initialization Failed
 
@@ -238,12 +238,9 @@ If you get a storage quota error:
 - No data is sent to external servers
 - Database can be exported for backup
 - Clear browser data to remove all stored information
-
-## 📄 License
-
-
-This project is private and proprietary.
-## Running
+---
+## Screenshot 
 <img width="1920" height="1080" alt="Screenshot 2025-12-19 002832" src="https://github.com/user-attachments/assets/117fb867-93f3-4223-8e4f-b970582f7e18" />
+
 
 
